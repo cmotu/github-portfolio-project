@@ -36,3 +36,12 @@ nav li.active {
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.contact-box {
+    background: var(--branding-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+.contact-box p {
+    margin: 0px;
+}

@@ -14,16 +14,14 @@
 <div class="container">
     <nav class="d-flex justify-content-between">
 
-        <img src="/logo.png" class="img-responsive d-none d-md-block" alt="MiT xPro Logo">
+        <img src="/images/logo.png" class="img-responsive d-none d-md-block" alt="MiT xPro Logo">
         <ul>
             <li class="active">
-                <a href="" title="Homepage">Home</a>
+                <a href="./index.html" title="Homepage">Home</a>
             </li>
+           
             <li>
-                <a href="" title="About page">Exercises</a>
-            </li>
-            <li>
-                <a href="" title="Christina's Work">Github Links</a>
+                <a href="./projects.html" title="Christina's Work">Projects</a>
             </li>
             <li>
                 <a href="" title="Contact Christina">Contact</a>
@@ -35,29 +33,57 @@
 <br />
 <h1 class="text-center">Github Portfolio Project</h1>
 <br />
-<div class="container">
-    <div class="row">
-        <div class="col mb-5">
-            <div class="project-description">
-                <img src="./bus.png" class="img-fluid" alt="bus-tracker image">
-            </div>
-        </div>
-       
-        <div class="col-6">
-            <h3>Bus Tracker Project</h3>
-            <p>In this project I was taught how to render markers onto a map of an MiT bus route, by manipulating the DOM. By accessing Mapbox's API, I was able to mark on the map each stop between MiT and Harvard.</p>
-            <a href="">Learn More</a>
-        </div>
-
+<body>
+    <div class="content-container container">
         <div class="row">
-            <div class="col-6">
-                <h3>Eye Exercise</h3>
-                <p>Another exercise done through this MiT course is the Eye Exercise in which we...</p>
-                <a href="">Learn More</a>
+            <div class="col-md-6">
+                <div class="content">
+
+                    <h1 class="mb-4">Hi I am Christina Motu</h1>
+                    <h2 class="mb-4">Frontend Developer, based in California</h2>
+                    <p class="mb-5">
+                        For anyone who wants to start learning code, this workshop is very interesting. You will be
+                        challenged with different
+                        exercises, and everything is well explained, homework and deadlines are good for keeping focus.
+                    </p>
+                    <a href="/work.html" class="btn btn-branding">See my projects</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/me.jpg" alt="A photo of Christina Motu" class="content img-fluid">
             </div>
         </div>
     </div>
+<footer>
+    <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div>
 
-</div>
+            <h3>
+                Work Inquiry
+            </h3>
+            <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+            <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Christina">Contact me</a>
+        </div>
+
+    </div>
+    <div class="d-flex justify-content-center mb-3">
+        <a href="mailto:cmotu@sandiego.edu" class="email-link" title="Email Christina">cmotu@sandiego.edu</a>
+    </div>
+    <div class="social-links d-flex justify-content-center mb-5">
+        <a href="https://www.instagram.com/cmotu/" target="_blank" title="Instagram Profile"><i
+                class="fab fa-instagram"></i></a>
+        <a href="https://github.com/cmotu" target="_blank" title="Github Profile"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100008351343069" target="_blank" title="Facebook Profile"><i
+                class="fab fa-facebook"></i></a>
+    </div>
+
+    <p class="text-center">
+        This project was coded by Christina Motu with MiT, and is <a
+            href="https://github.com/cmotu/github-portfolio-project" target="_blank">open-sourced</a>
+    </p>
+
+</footer>
 </body>
 </html>
