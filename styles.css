@@ -38,6 +38,7 @@ h1{
 }
 .contact-box {
     background: var(--branding-color);
+    opacity: 95%;
     padding: 30px 120px;
     border-radius: 10px;
 }
