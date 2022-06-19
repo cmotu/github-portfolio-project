@@ -1,15 +1,54 @@
 :root {
-    --branding-color:#A31F34;
-    --secondary-color:#000000;
+    --branding-color: #000000;
+    --secondary-color:#A31F34;
 }
 
 .img-responsive{
     max-width: 250px;
     max-height: 72px;
 }
+
+
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+}
+
+.hero h2 {
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.content {
+    padding: 160px 20px;
+}
+
+.content h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.content h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    font-weight: bolder;
+}
+
+.content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--default-font-family);
+}
+
+.content p {
+    font-size: 14px;
+}
+
 nav {
     padding: 20px 0;
-   
 }
 
 nav ul {
@@ -29,20 +68,112 @@ nav a {
     color: #272142;
     transition: all 150ms ease-in-out;
 }
+
 nav a:hover,
 nav li.active {
     color: var(--branding-color);
 }
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.content {
+    margin: 30px;
 }
-.contact-box {
+
+.btn-branding {
     background: var(--branding-color);
-    opacity: 95%;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.btn-branding-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer.email-link:hover {
+    color: var(--branding-color);
+}
+
+.social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+}
+
+.social-links a:hover {
+    color: white;
+    background: var(--branding-color);
+    line-height: 1.5;
+}
+
+.contact-box {
+    background: var(--secondary-color);
     padding: 30px 120px;
     border-radius: 10px;
 }
 
 .contact-box p {
     margin: 0px;
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 44px;
+        line-height: 2;
+    }
+
+    h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    p {
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    .hero {
+        background: var(--secondary-color);
+        text-align: center;
+        padding: 160px 20px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+    .content {
+        text-align: center;
+        padding: 0px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .contact-box {
+        padding: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
 }
