@@ -1,6 +1,8 @@
 :root {
     --branding-color: #000000;
     --secondary-color:#A31F34;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
 }
 
 .img-responsive{
@@ -22,11 +24,15 @@
     font-size: 24px;
 }
 
-
+a{
+    text-decoration: none;
+    color:#A31F34;
+}
 
 .content h1 {
     font-size: 64px;
     line-height: 80px;
+    font-family: var(--default-font-family);
 }
 
 .content h2 {
@@ -69,7 +75,7 @@ nav a {
 
 nav a:hover,
 nav li.active {
-    color: var(--branding-color);
+    color: var(--secondary-color);
 }
 
 .content {
