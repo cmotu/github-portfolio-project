@@ -148,7 +148,7 @@ footer.email-link:hover {
     margin: 0px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 896px) {
     h1 {
         font-size: 44px;
         line-height: 2;
@@ -178,7 +178,12 @@ footer.email-link:hover {
     .content {
         text-align: center;
         padding: 0px;
+       
     }
+
+   .cards{
+    margin-left: 50px;
+   }
 
     nav a {
         font-size: 14px;
