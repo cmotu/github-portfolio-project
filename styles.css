@@ -5,7 +5,12 @@
     --default-font-family: "Poppins", sans-serif;
 }
 
-
+.projects{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
 
 .img-responsive{
     max-width: 250px;
