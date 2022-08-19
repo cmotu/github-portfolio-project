@@ -5,6 +5,13 @@
     --default-font-family: "Poppins", sans-serif;
 }
 
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .img-responsive{
     max-width: 250px;
     max-height: 72px;
